@@ -7,9 +7,9 @@ def valid_move?(board,index)
   #position is on board and position is not taken
   if input_to_index.between(0,8)
   #return true
-  #position is not on board or is taken 
-  #return false 
-  end 
+  #position is not on board or is taken
+  #return false
+  end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
