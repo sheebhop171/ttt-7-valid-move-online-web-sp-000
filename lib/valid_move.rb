@@ -1,5 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board,index)
+  if position taken?
 
 end
 
@@ -11,3 +12,11 @@ def position_taken?(board,index)
     false
   end
 end
+
+#def some_new_fabulous_method
+    #if position_taken?
+        #execute something
+    #else
+        #execute something else
+    #end
+#end
